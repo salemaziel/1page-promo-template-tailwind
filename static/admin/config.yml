@@ -4,6 +4,8 @@ backend:
   branch: main
 media_folder: static/assets/images
 public_folder: /assets
+editor:
+  preview: false
 collections:
   - name: SocialConfiguration
     label: Social
