@@ -1,23 +1,32 @@
-facebook_link: https://www.facebook.com/funkwithelmonk
-snapchat_link: https://snapchat.com
-twitter_link: https://twitter.com/funkwithelmonk
-spotify_link: https://spotify.com
-instagram_link: https://www.instagram.com/funkwithelmonk/
-youtube_link: https://youtube.com
-soundcloud_link: https://soundcloud.com
-apple_music_link: https://applemusic.com
-youtube_music_link: https://music.youtube.com
-tiktok_link: https://tiktok.com
-tidal_link: https://tidal.com
-booking_email: salem@viadelweb.com
-profile_image: /assets/images/profilepic-500x500.jpg
-user_name: El Monk
-home_town: Costa Mesa
-about_you: "just doing my spiritual thang just doing my spiritual thang just doing my spiritual thang just doing my spiritual thang just doing my spiritual thang just doing my spiritual thang"
-shop_link: https://viadelweb.com
 background_photo: /assets/images/wallhaven-45y613_m50.jpg
-caption_photo: /assets/images/last-night-vibes.jpeg
-caption_title: Funk With El Monk
-caption_subtitle: just doing my spiritual thang
-gallery_pic: /assets/images/el-monk-pow-ep.jpeg
 gallery_url: https://viadelweb.com
+shop_link: https://viadelweb.com
+profile_image: /assets/images/profilepic-500x500.jpg
+twitter_link: https://twitter.com/funkwithelmonk
+instagram_link: https://www.instagram.com/funkwithelmonk/
+about_you: just doing my spiritual thang just doing my spiritual thang just
+  doing my spiritual thang just doing my spiritual thang just doing my spiritual
+  thang just doing my spiritual thang
+youtube_music_link: https://music.youtube.com
+caption_subtitle: just doing my spiritual thang
+home_town: Costa Mesa
+facebook_link: https://www.facebook.com/funkwithelmonk
+soundcloud_link: https://soundcloud.com
+booking_email: salem@viadelweb.com
+youtube_link: https://youtube.com
+snapchat_link: https://snapchat.com
+caption_photo: /assets/images/last-night-vibes.jpeg
+apple_music_link: https://applemusic.com
+gallery_pic: /assets/images/el-monk-pow-ep.jpeg
+user_gallery:
+  - gallery_pictures:
+      gallery_pic: /assets/music-bg.jpg
+tidal_link: https://tidal.com
+tiktok_link: https://tiktok.com
+spotify_link: https://spotify.com
+user_name: El Monk
+caption_title: Funk With El Monk
+caption_photo_section:
+  caption_photo: /assets/last-night-vibes.jpeg
+  caption_title: Funk With El Monk
+  caption_subtitle: just doing my spiritual thang
