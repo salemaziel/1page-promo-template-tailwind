@@ -21,11 +21,11 @@ module.exports = {
     			   options: {
       			   enableIdentityWidget: true,
 			   htmlTitle: 'Profile Manager',
-			   htmlFavicon: 'src/images/el-monk-pow-ep.jpeg',
+			   htmlFavicon: siteMetadata.siteIcon,
     			},
 		},
 		`gatsby-plugin-netlify`,
-       	        `gatsby-transformer-remark`,
+       	`gatsby-transformer-remark`,
 		`gatsby-transformer-yaml`,
 		{
 			resolve: `gatsby-source-filesystem`,
@@ -66,10 +66,9 @@ module.exports = {
 			  background_color: `#000`,
 			  theme_color: `#000`,
 			  display: `minimal-ui`,
-			  icon: 'src/images/el-monk-pow-ep.jpeg'
+			  icon: siteMetadata.siteIcon,
 			},
 		},
-		`gatsby-plugin-gatsby-cloud`
 		// this (optional) plugin enables Progressive Web App + Offline functionality
 		// To learn more, visit: https://gatsby.dev/offline
 		// `gatsby-plugin-offline`,

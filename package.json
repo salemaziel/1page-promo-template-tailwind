@@ -6,7 +6,6 @@
   "author": "Salem Aziel <salem@viadelweb.com>",
   "dependencies": {
     "gatsby": "^3.10.1",
-    "gatsby-plugin-gatsby-cloud": "^2.10.0",
     "gatsby-plugin-image": "^1.10.1",
     "gatsby-plugin-mailgo": "^0.12.2",
     "gatsby-plugin-manifest": "^3.10.0",
