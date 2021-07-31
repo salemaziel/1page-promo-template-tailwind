@@ -12,7 +12,7 @@ collections:
     files:
       - label: 'Social Media Links'
         name: 'social'
-        file: 'site/customization.yml'
+        file: 'siteData/social.yml'
         fields:
           - {label: 'facebook link', name: 'facebook_link', widget: string}
           - {label: 'snapchat link', name: 'snapchat_link', widget: string}
@@ -43,7 +43,7 @@ collections:
     files:
       - label: 'Add Your Photos'
         name: 'photos'
-        file: 'site/customization.yml'
+        file: 'siteData/photos.yml'
         fields:
           - {label: 'Background Photo', name: 'background_photo', widget: image}
           - label: 'Captioned Photo Section'
@@ -63,8 +63,8 @@ collections:
                   widget: string,
                   required: false
                 }
-          - label: 'Gallery'
-            name: 'user_gallery'
+          - label: 'Gallery',
+            name: 'user_gallery',
             collapsed: false
             widget: 'list'
             min: 1

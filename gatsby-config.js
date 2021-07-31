@@ -62,6 +62,8 @@ module.exports = {
 			options: {
 			  name: `Funk With El Monk`,
 			  short_name: `El Monk`,
+			  description: siteMetadata.description,
+			  lang: `en`,
 			  start_url: `/`,
 			  background_color: `#000`,
 			  theme_color: `#000`,
