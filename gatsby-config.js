@@ -1,10 +1,10 @@
 // gatsby-config.js
+const siteMetadata = require('./site-metadata.json')
+
+
 module.exports = {
-	siteMetadata: {
-		title: `Via Del Web BioLink`,
-		description: `Bio link personal website profile page for sharing links, photos, videos, social media, and more`,
-		author: `@salemaziel`
-	},
+	pathPrefix: '/',
+	siteMetadata: siteMetadata,
 	plugins: [
 		`gatsby-plugin-postcss`,
 		`gatsby-plugin-react-helmet`,
@@ -16,20 +16,30 @@ module.exports = {
 				path: `${__dirname}/src/images`
 			}
 		},
-		`gatsby-plugin-netlify-cms`,
+		{
+			resolve: `gatsby-plugin-netlify-cms`,
+    			   options: {
+      			   enableIdentityWidget: true,
+			   htmlTitle: 'Profile Manager',
+			   htmlFavicon: 'src/images/el-monk-pow-ep.jpeg',
+    			},
+		},
+		`gatsby-plugin-netlify`,
+       	        `gatsby-transformer-remark`,
 		`gatsby-transformer-yaml`,
 		{
 			resolve: `gatsby-source-filesystem`,
-			options: {
-			  path: `./site/customization.yml`,
-			},
-		  },
-//		  {
+            options: {
+                name: `siteData`,
+                path: `${__dirname}/siteData`
+		  }
+		},
+//		{
 //			resolve: `gatsby-source-filesystem`,
-//			options: {
-//			  path: `./site/bio.yml`,
-//			},
-//		  },
+//            options: {
+//                path: `${__dirname}/siteData/social.yml`
+//		  }
+//		},
 //		  {
 //			resolve: `gatsby-source-filesystem`,
 //			options: {
